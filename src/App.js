@@ -1,3 +1,5 @@
+import "./app.css";
+
 import { Navbar, Brand, CTA } from "./components";
 import {
   Header,
