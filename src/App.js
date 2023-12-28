@@ -1,7 +1,27 @@
+import { Navbar, Brand, CTA } from "./components";
+import {
+  Header,
+  Footer,
+  Blog,
+  Possibility,
+  Features,
+  WhatGPT3,
+} from "./containers";
+
 const App = () => {
   return (
-    <div>
-      <h1>GPT-3</h1>
+    <div className="App">
+      <di className="gradient__bg">
+        <Navbar />
+        <Header />
+      </di>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   );
 };
